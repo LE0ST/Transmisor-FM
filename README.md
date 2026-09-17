@@ -92,6 +92,14 @@ During physical validation:
 - The transmitter was tuned to approximately 94.6 MHz.
 - FM audio reception was observed up to approximately 50 m using a commercial FM receiver.
 
+## Technical Documentation
+
+The complete sanitized technical report is available here:
+
+[View the Technical Report (PDF)](docs/Informe_Tecnico_Transmisor_FM_PUBLIC.pdf)
+
+The public version preserves the engineering content while removing private academic identifiers.
+
 ## Bill of Materials
 | Component | Value/Part | Stage |
 |-----------|------------|-------|
