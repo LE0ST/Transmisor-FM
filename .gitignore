@@ -1,0 +1,101 @@
+# ==============================================================================
+# Gitignore para Proyectos de Hardware / Altium Designer / Simulación RF
+# ==============================================================================
+
+# --- Altium Designer: Historial y Backups Locales ---
+History/
+**/History/
+__Previews/
+**/__Previews/
+*.SchDocPreview
+*.PcbDocPreview
+*.~*
+*.Zip
+*.zip
+*.bak
+*.BAK
+*.tmp
+*.TMP
+
+# --- Altium Designer: Registros de Proyecto y Compilación ---
+Project\ Logs\ for\ */
+**/Project\ Logs\ for\ */
+Project\ Outputs\ for\ */
+**/Project\ Outputs\ for\ */
+Project\ Outputs/
+**/Project\ Outputs/
+*.LOG
+*.log
+*.htm
+*.html
+*.REP
+*.rep
+*.APR
+*.apr
+*.EXTREP
+*.extrep
+*.DRR
+*.drr
+*.LDP
+*.ldp
+*.TLT
+*.tlt
+
+# --- Altium Designer: Archivos de Usuario y Preferencias de Entorno ---
+*.Workspace
+*.DsnWrk
+*.DsnWrk.*
+*.PrjPcb.Release*
+*.PcbLib.Release*
+*.SchLib.Release*
+*.Annotation
+*.eco
+*.BOM
+*.bom
+*.CSV
+*.csv
+*.TXN
+*.txn
+
+# --- Simulación Analógica / SPICE / 4NEC2 ---
+# (Se conservan .nsx, .sdf y .nec de referencia en 'simulation/')
+*.raw
+*.out
+*.npz
+*.DAT
+*.dat
+*.swp
+*.cir.bak
+
+# --- Sistema Operativo y Editores ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+.vscode/
+.idea/
+
+# --- Microsoft Office (Archivos temporales y de bloqueo) ---
+~$*.docx
+~$*.xlsx
+~$*.pptx
+~$*.doc
+~$*.ppt
+
+# --- Phase 2B: Local Archive and Ignored Oversized/Private Documents ---
+local_archive/
+docs/Caratula_Transmisor_FM.pdf
+docs/Caratula_Transmisor_FM.docx
+docs/Guia_General_Transmisor_FM.pdf
+docs/Informe_Tecnico_Transmisor_FM.pdf
+docs/Informe_Tecnico_Transmisor_FM.docx
+docs/Modelo_Transmisor_FM.pdf
+docs/Presentacion_Transmisor_FM.pdf
+simulation/spice/FM.sdf
+
+# Ensure public sanitized version is NOT ignored
+!docs/Informe_Tecnico_Transmisor_FM_PUBLIC.pdf
