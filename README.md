@@ -113,7 +113,7 @@ The public version preserves the engineering content while removing private acad
 
 ## Repository Structure
 ```text
-Transmisor-FM/
+low-power-fm-transmitter/
 ├── docs/
 │   ├── Informe_Tecnico_Transmisor_FM_PUBLIC.pdf
 │   └── images/
